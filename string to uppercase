@@ -1,0 +1,13 @@
+<div id="app">
+  <h1> Tool: Letter Case Converter</h1>
+  <div style="padding:4px 0px 7px 0px;">
+    <button @click="upperc">Uppercase</button>
+    <button @click="lowerc">Lowercase</button>
+    <button @click="radcse">Randomcase</button>
+    <button @click="fstletwrduc">First letter each word uppercase.</button>
+    <button @click="sentfstuc">First letter each sentence uppercase.</button>
+  </div>
+  <textarea id="input_output" style="width:100%;" rows="4" wrap="soft">
+  </textarea>
+
+</div>
